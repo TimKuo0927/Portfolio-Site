@@ -5,13 +5,19 @@ import logo from "./style/ICON.png"
 function layout(){
    return(
     <>
+    <div style={{display:"block"}}>
+    /* File name: My Portfolio. */
+/* Student’s Name: Yen Ting Kuo*/
+/* StudentID: 301332125 */
+/* Date: 20240928 */
+    </div>
     <div className="layoutbox">
         <div className="headerbox">
         <a href="/">
         <img src={logo}  alt="logo" className="logo" />
         </a>
         <h1>
-            My Page
+            My Portfolio
         </h1>
         
         </div>

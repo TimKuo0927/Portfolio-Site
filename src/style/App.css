@@ -1,3 +1,7 @@
+/* File name: My Portfolio. */
+/* Student’s Name: Yen Ting Kuo*/
+/* StudentID: 301332125 */
+/* Date: 20240928 */
 .App {
   text-align: center;
 }
@@ -66,6 +70,7 @@
   justify-content: center; 
   height: 60%;
   z-index: 5;
+  background-color: white
 }
 
 .logo {
@@ -208,7 +213,7 @@
 }
 
 .subtitle {
-  font-size: large; /* Smaller size for the job title */
+  font-size: large; 
   font-weight: normal;
   margin-top: 10px;
 }
@@ -300,4 +305,117 @@
   right: -30%;
   position: relative;
   max-width: 300px;
+}
+
+.aboutme{
+  color: #444;
+  right: -32%;
+  position: relative;
+  max-width: 500px;
+  border: 1px solid #1ffaaa;
+padding: 15px;
+  border-radius: 5px;
+}
+
+.about_img{
+  width: 200px;
+}
+
+.about_title{
+  font-size: large; 
+  font-weight:bolder;
+}
+
+.about_subtitle{
+  font-size: small; 
+ 
+}
+.service_title{
+  position: relative;
+  margin-top: 10%;
+}
+
+.list {
+  text-align: initial;
+  position: relative;
+  /* margin-top: 10%; */
+  max-width: 70%;
+}
+.list h2 {
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.list ul {
+  position: relative;
+}
+.list ul li {
+  position: relative;
+  left: 0;
+  color: #000000;
+  list-style: none;
+  margin: 4px 0;
+  border-left: 2px solid #237054;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #53cea1;
+}
+.list ul li:hover {
+  left: 10px;
+}
+.list ul li span {
+  position: relative;
+  padding: 8px;
+  padding-left: 12px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5s;
+}
+.list ul li:hover span {
+  color: #fffefe;
+}
+.list ul li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #103527;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+.list ul li:hover:before {
+  transform: scaleX(1);
+}
+
+.first_project{
+  border: 1px solid #1ffaaa;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 70%;
+  min-width: 60%;
+  display: inline-grid;
+  grid: inherit;
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.project_img{
+  margin: 5px;
+  height: 200px;
+  border: 1px solid #1ffaaa;
+}
+
+.project_img_container{
+  padding: 10px;
+
+}
+
+.project_p{
+  max-width: 500px;
+  display: contents
 }
